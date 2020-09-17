@@ -9,7 +9,7 @@ module.exports = () => {
 
     router.get('/example', (req, res) => {
         return res.render('example', {
-            title: 'PUG Example', message: 'Hello PUG Template'
+            title: 'PUG Example', message: 'Hello PUG Template', message2: 'Jon'
             });
     });
 
